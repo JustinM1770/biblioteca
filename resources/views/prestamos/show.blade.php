@@ -16,7 +16,7 @@
                 @else bg-red-100 text-red-800
                 @endif">
                 @if($prestamo->estado == 'prestado' && $prestamo->estaAtrasado())
-                    ⚠️ Atrasado
+                    Atrasado
                 @else
                     {{ ucfirst($prestamo->estado) }}
                 @endif

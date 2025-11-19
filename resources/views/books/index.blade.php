@@ -2,7 +2,7 @@
     <x-slot name="header">
         <div class="flex justify-between items-center">
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                📚 Catálogo de Libros
+                Catálogo de Libros
             </h2>
             <a href="{{ route('books.create') }}" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
                 ➕ Nuevo Libro
@@ -84,13 +84,13 @@
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="w-full bg-red-100 text-red-700 px-3 py-2 rounded text-sm hover:bg-red-200 transition">
-                                    🗑️ Eliminar
+                                    Eliminar
                                 </button>
                             </form>
                         </div>
                         @empty
                         <div class="col-span-full text-center py-8">
-                            <div class="text-gray-400 text-xl mb-2">📚</div>
+                            <div class="text-gray-400 text-xl mb-2"></div>
                             <p class="text-gray-600">No hay libros registrados.</p>
                             <a href="{{ route('books.create') }}" class="inline-block mt-2 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
                                 Agregar el primer libro

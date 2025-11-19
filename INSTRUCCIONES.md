@@ -1,4 +1,4 @@
-# 📚 Sistema de Biblioteca - Instrucciones de Instalación y Uso
+# Sistema de Biblioteca - Instrucciones de Instalación y Uso
 
 Sistema completo de gestión de biblioteca desarrollado con **Laravel 11** y **TailwindCSS**. Incluye gestión de libros, autores, géneros y préstamos con control de roles (Administrador, Bibliotecario, Lector).
 
@@ -8,9 +8,9 @@ Sistema completo de gestión de biblioteca desarrollado con **Laravel 11** y **T
 
 ---
 
-## ✨ Características Principales
+## Características Principales
 
-### 🎨 Diseño
+### Diseño
 - Interfaz moderna con sidebar responsivo
 - Fuente **Poppins** desde Google Fonts
 - Paleta de colores personalizada:
@@ -18,29 +18,29 @@ Sistema completo de gestión de biblioteca desarrollado con **Laravel 11** y **T
   - Primary Light: `#3B82F6` (Azul claro)
   - Background: `#F1F5F9` (Gris claro)
 
-### 🔐 Sistema de Roles
+### Sistema de Roles
 
-#### 👑 Administrador
-- ✅ CRUD completo de **Libros**
-- ✅ CRUD completo de **Autores**
-- ✅ CRUD completo de **Géneros**
-- ✅ Gestión total de **Préstamos**
-- ✅ Dashboard con estadísticas completas
-- ✅ Ver todos los usuarios por rol
+#### Administrador
+- CRUD completo de **Libros**
+- CRUD completo de **Autores**
+- CRUD completo de **Géneros**
+- Gestión total de **Préstamos**
+- Dashboard con estadísticas completas
+- Ver todos los usuarios por rol
 
-#### 📚 Bibliotecario
-- ✅ Visualizar catálogo de libros
-- ✅ Gestionar préstamos (crear, devolver)
-- ✅ Ver estadísticas de libros y préstamos
-- ❌ No puede editar libros, autores ni géneros
+#### Bibliotecario
+- Visualizar catálogo de libros
+- Gestionar préstamos (crear, devolver)
+- Ver estadísticas de libros y préstamos
+- No puede editar libros, autores ni géneros
 
-#### 👤 Lector
-- ✅ Ver catálogo de libros
-- ✅ Solicitar préstamos
-- ✅ Ver historial personal de préstamos
-- ✅ Dashboard con estadísticas personales
+#### Lector
+- Ver catálogo de libros
+- Solicitar préstamos
+- Ver historial personal de préstamos
+- Dashboard con estadísticas personales
 
-### 🚀 Funcionalidades
+### Funcionalidades
 
 - **Búsqueda y Filtros**: Buscar libros por título, autor, género y disponibilidad
 - **Control Automático**: Los libros se marcan automáticamente como no disponibles al prestarse
@@ -52,7 +52,7 @@ Sistema completo de gestión de biblioteca desarrollado con **Laravel 11** y **T
 
 ---
 
-## 📋 Requisitos
+## Requisitos
 
 - PHP >= 8.2
 - Composer
@@ -61,7 +61,7 @@ Sistema completo de gestión de biblioteca desarrollado con **Laravel 11** y **T
 
 ---
 
-## 🛠️ Instalación
+## Instalación
 
 ### 1. Clonar el repositorio
 ```bash
@@ -113,7 +113,7 @@ Accede a: **http://127.0.0.1:8000**
 
 ---
 
-## 👥 Credenciales de Acceso
+## Credenciales de Acceso
 
 El seeder crea 3 usuarios de prueba:
 
@@ -125,7 +125,7 @@ El seeder crea 3 usuarios de prueba:
 
 ---
 
-## 📊 Estructura de la Base de Datos
+## Estructura de la Base de Datos
 
 ### Tablas Principales
 
@@ -158,7 +158,7 @@ User ──< Prestamo >── Libro ──> Autor
 
 ---
 
-## 🎯 Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 ### Modelos con Lógica Avanzada
 
@@ -205,7 +205,7 @@ GET /api/generos      // Lista de géneros ordenada
 
 ---
 
-## 🔐 Seguridad y Middlewares
+## Seguridad y Middlewares
 
 ### Middleware Personalizado: `CheckRole`
 
@@ -263,7 +263,7 @@ El sistema incluye una vista personalizada `errors/403.blade.php` que muestra:
 
 ---
 
-## 📁 Estructura de Vistas
+## Estructura de Vistas
 
 ```
 resources/views/
@@ -294,7 +294,7 @@ resources/views/
 
 ---
 
-## 🎨 Componentes de Diseño
+## Componentes de Diseño
 
 ### Sidebar
 - Navegación adaptada por rol
@@ -317,7 +317,7 @@ resources/views/
 
 ---
 
-## 🔧 Comandos Útiles
+## Comandos Útiles
 
 ```bash
 # Limpiar y recargar base de datos
@@ -341,7 +341,7 @@ php artisan tinker
 
 ---
 
-## 📝 Datos de Prueba
+## Datos de Prueba
 
 El seeder incluye:
 
@@ -353,7 +353,7 @@ El seeder incluye:
 
 ---
 
-## 🚀 Próximas Mejoras
+## Próximas Mejoras
 
 - [ ] Multas por atraso
 - [ ] Reservas de libros
@@ -366,13 +366,13 @@ El seeder incluye:
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es de código abierto bajo la licencia MIT.
 
 ---
 
-## 👨‍💻 Desarrollado con
+## Desarrollado con
 
 - [Laravel 11](https://laravel.com)
 - [TailwindCSS 3](https://tailwindcss.com)
@@ -382,4 +382,4 @@ Este proyecto es de código abierto bajo la licencia MIT.
 
 ---
 
-**¡Disfruta gestionando tu biblioteca!** 📚✨
+**¡Disfruta gestionando tu biblioteca!**

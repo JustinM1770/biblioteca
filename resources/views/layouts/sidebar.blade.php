@@ -20,7 +20,7 @@
         <!-- Sidebar -->
         <aside class="w-64 bg-primary text-white flex-shrink-0 hidden md:flex flex-col">
             <div class="p-6 border-b border-primary-light/30">
-                <h1 class="text-2xl font-bold">📚 Biblioteca</h1>
+                <h1 class="text-2xl font-bold">Biblioteca</h1>
                 <p class="text-xs text-gray-300 mt-1">Sistema de Gestión</p>
             </div>
 

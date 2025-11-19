@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>📚 Biblioteca - Sistema de Gestión</title>
+    <title>Biblioteca - Sistema de Gestión</title>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -126,7 +126,7 @@
                                             @csrf
                                             <input type="hidden" name="book_id" value="{{ $book->id }}">
                                             <button type="submit" class="bg-green-600 text-white text-sm px-4 py-2 rounded hover:bg-green-700 transition">
-                                                📚 Prestar
+                                                Prestar
                                             </button>
                                         </form>
                                     @else
@@ -153,7 +153,7 @@
                 @endif
             @else
                 <div class="text-center py-12">
-                    <div class="text-gray-400 text-6xl mb-4">📚</div>
+                    <div class="text-gray-400 text-6xl mb-4"></div>
                     <h3 class="text-xl font-medium text-gray-900 mb-2">No hay libros disponibles</h3>
                     <p class="text-gray-600">Vuelve pronto para ver nuevos libros en nuestro catálogo.</p>
                 </div>
@@ -165,7 +165,7 @@
     <footer class="bg-gray-800 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div class="text-center">
-                <h3 class="text-lg font-semibold mb-2">📚 Sistema de Biblioteca</h3>
+                <h3 class="text-lg font-semibold mb-2">Sistema de Biblioteca</h3>
                 <p class="text-gray-400">Desarrollado con Laravel y Tailwind CSS</p>
             </div>
         </div>
